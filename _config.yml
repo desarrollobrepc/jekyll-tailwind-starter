@@ -1,0 +1,4 @@
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules,scss,gulpfile.js,package.json,package-lock.json,README.md, Gemfile, Gemfile.lock]

@@ -1,0 +1,23 @@
+{
+  "name": "jekyll-starter",
+  "version": "1.0.0",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-shell": "^0.6.5",
+    "jquery": "^3.3.1",
+    "tailwindcss": "^0.5.3"
+  },
+  "dependencies": {
+    "npm": "^6.0.1"
+  }
+}
