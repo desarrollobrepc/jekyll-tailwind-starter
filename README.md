@@ -1,3 +1,9 @@
-# Jekyll Starter Template
+# Jekyll and Tailwind Starter
 
-Just a jekyll starter template for my projects
+To run:
+
+``` bash
+$ bundle install
+$ npm install
+$ gulp
+```
