@@ -28,7 +28,7 @@ gulp.task("browser-sync", function() {
     });
 });
 
-gulp.task("build", shell.task([ "jekyll serve" ]));
+gulp.task("build", shell.task([ "bundle exec jekyll serve" ]));
 
 gulp.task("watch", [ "browser-sync" ], function() {
     gulp.watch("css/*.scss", [ "styles" ]);
