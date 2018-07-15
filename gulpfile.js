@@ -33,6 +33,7 @@ gulp.task("build", shell.task([ "bundle exec jekyll serve" ]));
 gulp.task("watch", [ "browser-sync" ], function() {
     gulp.watch("css/*.scss", [ "styles" ]);
     gulp.watch("js/*.js");
+    gulp.watch("./tailwind.js", [ "styles" ]);
     gulp.watch("./**/*.html");
 });
 
