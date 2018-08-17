@@ -13,8 +13,8 @@
 		//General//
 ////////////////////////////////
 
-body {
-  font-family: "Roboto", sans-serif;
+html {
+    @apply .font-body;
 }
 
 
