@@ -33,7 +33,7 @@ let dimensions = {
     '64': '16rem',  //256
     '72': '18rem',  //288
     '90': '20rem',  //320
-  },
+}
 
 module.exports = {
 
